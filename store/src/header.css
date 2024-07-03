@@ -1,0 +1,110 @@
+.header_logo {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+.header_content_title {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%; /* 36px */
+}
+.header_content_title span {
+  color: #ff5c00;
+}
+.header_content {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  padding-bottom: 248px;
+  background-image: url(images/pic.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 227px;
+  margin: 0 auto;
+}
+.header_content_info {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header_content_info span {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header {
+  padding: 30px 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='100' cy='100' r='100' fill='%23FFAB08'/%3E%3C/svg%3E%0A");
+  background-size: 611px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+@media (min-width: 480px) {
+  .header_content {
+    padding-bottom: 268px;
+    background-size: 267px;
+  }
+  .header {
+    background-size: 811px;
+  }
+}
+@media (min-width: 768px) {
+  .header_content {
+    padding: 27px 0 74px 237px;
+    background-position: left;
+    gap: 26px;
+    justify-content: unset;
+    align-items: unset;
+    max-width: 562px;
+    background-size: 227px;
+    margin: 0 auto 45px auto;
+  }
+  .header_content_title {
+    text-align: left;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .header_content_info {
+    text-align: left;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .header {
+    background-size: 2540px;
+  }
+}
+@media (min-width: 1024px) {
+  .header {
+    background-size: 2880px;
+  }
+  .header_content_title {
+    font-size: 50px;
+  }
+  .header_content {
+    background-size: 326px;
+    padding: 46px 0 86px 326px;
+    gap: 52px;
+    max-width: 764px;
+  }
+  .header_content_info {
+    font-size: 16px;
+  }
+  .header {
+    margin-bottom: 48px;
+  }
+}
